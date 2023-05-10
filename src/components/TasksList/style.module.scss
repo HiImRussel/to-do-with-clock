@@ -1,0 +1,32 @@
+.tasks-list {
+    background-color: #8952fd;
+
+    width: 360px;
+    padding: 16px;
+
+    border-radius: 4px;
+
+    max-height: 600px;
+    overflow-y: auto;
+
+    @media only screen and (max-width: 512px) {
+        width: auto;
+    }
+
+    &--completed {
+        background-color: #ffd568;
+        margin-left: 32px;
+
+        @media only screen and (max-width: 852px) {
+            margin-left: 0;
+            margin-top: 32px;
+        }
+    }
+
+    &__title {
+        width: 100%;
+
+        text-align: center;
+        color: white;
+    }
+}
