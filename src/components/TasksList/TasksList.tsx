@@ -1,9 +1,6 @@
 /** React */
 import { useContext, useMemo } from "react";
 
-/** ClassNames */
-import classNames from "classnames";
-
 /** Context */
 import { TasksContext } from "../../context/TasksContext";
 
